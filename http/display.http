@@ -1,0 +1,8 @@
+### /api/v1/products
+GET localhost:8079/api/v1/products
+
+### /api/v1/products/by-ribbon
+GET localhost:8079/api/v1/products/by-ribbon
+
+### /api/v1/products/by-load-balancer-client
+GET localhost:8079/api/v1/products/by-load-balancer-client

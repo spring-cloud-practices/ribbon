@@ -1,0 +1,8 @@
+server:
+  port: 8079
+
+product:
+  ribbon:
+    listOfServers: localhost:8080,localhost:8081 # 로드밸런싱 대상 서버 목록. configuration 을 통해 static 하게 설정 또는 eureka 등을 기반으로 dynamic 하게 설정 가능.
+    MaxAutoRetries: 2 # 첫 시도 실패시 같은 서버로 재시도 하는 수(첫번째 전송은 제외)
+    MaxAutoRetriesNextServer: 0 # 첫 시도 실패시 다음 서버로 재시도 하는 수(첫번째 전송은 제외)
